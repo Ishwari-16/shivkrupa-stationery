@@ -1,0 +1,6 @@
+{
+  "name": "Shivkrupa Stationery & Xerox Centre",
+  "description": "Modern website for Shivkrupa Stationery & Xerox Centre in Hadapsar, Pune. Your one-stop shop for high-quality printing, photocopying, laminating, binding, and school/office stationery supplies.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
