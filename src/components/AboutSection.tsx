@@ -49,13 +49,7 @@ export default function AboutSection() {
           >
             {/* Main Image Container */}
             <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white aspect-4/3 sm:aspect-16/10 lg:aspect-4/3 group">
-              <img
-                src="https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?auto=format&fit=crop&w=800&q=80"
-                alt="Shivkrupa Premium Stationery Shop Interior"
-                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
-                loading="lazy"
-                referrerPolicy="no-referrer"
-              />
+              
               <div className="absolute inset-0 bg-gradient-to-t from-slate-950/40 to-transparent pointer-events-none" />
               
               {/* Overlay Badge */}
