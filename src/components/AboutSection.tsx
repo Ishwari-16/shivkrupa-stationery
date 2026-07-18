@@ -38,42 +38,7 @@ export default function AboutSection() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-          
-          {/* Left Column: Visual graphic & stats */}
-          <motion.div
-            initial={{ opacity: 0, x: -30 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-            className="relative"
-          >
-            {/* Main Image Container */}
-            <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white aspect-4/3 sm:aspect-16/10 lg:aspect-4/3 group">
-              
-              <div className="absolute inset-0 bg-gradient-to-t from-slate-950/40 to-transparent pointer-events-none" />
-              
-              {/* Overlay Badge */}
-              <div className="absolute bottom-6 left-6 right-6 bg-white/95 backdrop-blur-md p-4 rounded-2xl shadow-lg border border-white/20 flex items-center justify-between">
-                <div>
-                  <p className="font-display font-extrabold text-blue-600 text-lg leading-none">⭐ 5.0 Rating</p>
-                  <p className="text-slate-500 text-xs mt-1">Hadapsar's Most Loved Stationery</p>
-                </div>
-                <div className="text-right">
-                  <span className="inline-block bg-orange-500 text-white text-[11px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider">
-                    Pune Trusted
-                  </span>
-                </div>
-              </div>
-            </div>
-
-            {/* Experience Card Floater */}
-            <div className="absolute -top-6 -right-6 hidden sm:flex flex-col items-center justify-center w-28 h-28 bg-orange-500 text-white rounded-2xl shadow-xl rotate-6 animate-float-1 border-2 border-white">
-              <span className="font-display font-black text-3xl">100%</span>
-              <span className="text-[10px] font-bold uppercase tracking-wider text-orange-100 text-center px-2">
-                Satisfaction
-              </span>
-            </div>
-          </motion.div>
+         
 
           {/* Right Column: Copy & Highlights */}
           <motion.div
